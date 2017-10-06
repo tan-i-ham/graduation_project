@@ -4,9 +4,11 @@
 * tools : python 
 * packages : jieba
 
-- [ ] 利用 jieba 套件斷字斷詞
-- [ ] count
-- [ ] frequency
+
+## to-do 
+- [X] 利用 jieba 套件斷字斷詞
+- [X] count
+- [X] frequency
 - [ ] mongodb
 - [ ] maching learning : classification
 - [ ] label
