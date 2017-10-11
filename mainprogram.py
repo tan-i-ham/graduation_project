@@ -4,9 +4,9 @@ import jieba.posseg as pseg
 import jieba.analyse
 
 import word_count as wc
-import cut
-import weight
-import cut_table
+import cut, weight, cut_table, connectdb, counter
+
+
 
 # 結巴使用前的程序
 def loadjieba():
