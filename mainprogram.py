@@ -60,6 +60,8 @@ def main():
     cut.cutting(filename)  
   elif option == '--cut2':
     cut_table.cutting3(filename) 
+  elif option == '--cutandcount':
+    counter.cutandcount(filename)
   else:
     print('unknown option: ' + option)
     sys.exit(1)

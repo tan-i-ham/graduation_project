@@ -19,8 +19,8 @@ def loadjieba():
 
   # input_file = open(filename, 'r', encoding = utf8())
 
-def cutandcount():
-  filename = 'gogoro.txt'
+def cutandcount(filename):
+  # filename = 'gogoro.txt'
   content = open(filename, 'rb').read()
   # input_file = open(filename, 'r', encoding = 'utf-8-sig')
   seglist = jieba.cut(content, cut_all=False)
@@ -59,4 +59,3 @@ def cutandcount():
       for k,v in og_dict.items():
         f.write(k+'\t'+str(v)+'\n')
 
-cutandcount()
