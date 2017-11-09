@@ -9,3 +9,5 @@ easy_install 3 eng
 凱特琳 nz
 Edu Trust认证 2000
 厭世代
+福原愛
+江宏傑
